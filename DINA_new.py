@@ -8,7 +8,8 @@ from sklearn.model_selection import KFold
 '''
 use math2015 data,including FrcSub,Math1,Math2
 training data use 80% of total data
-number =4900
+number =490
+grade=middle
 '''
 
 def EStep(IL,sg,n,r,k,i):
