@@ -63,8 +63,8 @@ def trainDINAModel(n,Q):
     # 初始化每道题目的s失误率和g猜测率，
     # sg[i][0]表示第i道题目的s失误率，sg[i][1]表示第i道题目的g猜测率
     for i in range(nj):
-        sg[i][0] = 0.2
-        sg[i][1] = 0.2
+        sg[i][0] = 0.1
+        sg[i][1] = 0.13
 
     continueSG = True
     kk =1
